@@ -29,6 +29,16 @@ img .card-img-top{
 	margin-left: 20px;
 
 }
+ #slider{
+	
+	width: 900px;
+	background-color: aquamarine;
+}
+section{
+	width: 100%;
+	
+	
+}
 .text-light{
 	margin-top: 60px;
 }
