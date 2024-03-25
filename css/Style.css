@@ -29,10 +29,14 @@ img .card-img-top{
 	margin-left: 20px;
 
 }
+#carouselExampleIndicators{
+	padding: 20px 0px 20px;
+
+}
  #slider{
 	
 	width: 900px;
-	background-color: aquamarine;
+	background-color: #786f66;
 }
 section{
 	width: 100%;
