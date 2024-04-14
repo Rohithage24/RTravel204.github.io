@@ -39,7 +39,7 @@ img .card-img-top{
  #slider{
 	
 	width: 900px;
-	background-image: url(image/gall.jpg);
+	background-image: url("image/gall.jpg");
 }
 section{
 	width: 100%;
@@ -59,39 +59,34 @@ footer a {
 	color: white;
 }
 .img-thamb{
-    		display: flex;
+    display: flex;
+
+}
+.img-set{
+	width: 25%;
+	    	
+	padding: 10px;
+	    		
+	    		
+
+}
+.big-imge{
+	width: 750px;
+	height: 500px;
+	border: 10px solid transparent;
+	border-radius: 20px;
+}
+.img-small{
+	padding: 10px;
+	width: 250px;
+	height: 150px;
+	opacity: 0.3;
 
 
-
-    	}
-
-    	.img-set{
-    		width: 25%;
-    		
-    		padding: 10px;
-    		
-    		
-
-    	}
-    	.big-imge{
-
-    		width: 750px;
-    		height: 500px;
-    		border: 10px solid transparent;
-    		border-radius: 20px;
-    	}
-    	.img-small{
-    		padding: 10px;
-    		width: 250px;
-    		height: 150px;
-    		opacity: 0.3;
-
-
-    	}
-
-    	.img-small:hover{
-    		opacity: 1;
-    	}
-    	.img-small.active{
-    		opacity: 1;
-    	}
+}
+ .img-small:hover{
+	opacity: 1;
+}
+.img-small.active{
+	opacity: 1;
+}
